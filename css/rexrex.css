@@ -18,7 +18,7 @@
 
 .hero_bg {
   height: 30%;
-  background-image: url('../images/hero_bg.svg');
+  background-image: url("../images/hero_bg.svg");
   background-position: 50% 0;
   background-size: cover;
   position: absolute;
@@ -76,7 +76,7 @@
 .separator_about {
   width: 100%;
   height: 200px;
-  background-image: url('../images/separator.svg');
+  background-image: url("../images/separator.svg");
   background-position: 50% 0;
   background-size: cover;
   position: static;
@@ -274,7 +274,7 @@
 .tokenomics_info {
   width: 100%;
   height: 300px;
-  background-color: #5d3166;
+  background-color: #111111;
   justify-content: center;
   align-items: center;
   margin-top: -147px;
@@ -302,7 +302,10 @@
   display: flex;
 }
 
-.dinotax, .dinorevoke, .dino_burn, .dinow {
+.dinotax,
+.dinorevoke,
+.dino_burn,
+.dinow {
   height: 100%;
 }
 
@@ -325,7 +328,7 @@
 .section_screen {
   width: 100%;
   height: auto;
-  background-color: #5d3166;
+  background-color: #111111;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
@@ -439,7 +442,7 @@
 .buy_details {
   width: 100%;
   height: 120.6px;
-  background-color: #5d3166;
+  background-color: #364bc2;
   border-bottom: 6px solid #2d1334;
   border-radius: 20px;
   justify-content: flex-start;
@@ -508,7 +511,7 @@
 }
 
 .button {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 0 0;
   background-size: auto;
 }
@@ -545,7 +548,10 @@
   right: 0%;
 }
 
-.after, .after2, .after3, .after4 {
+.after,
+.after2,
+.after3,
+.after4 {
   z-index: 1;
   width: 280px;
   pointer-events: none;
@@ -571,7 +577,8 @@
   width: 160px;
 }
 
-.bitmart, .raydiu {
+.bitmart,
+.raydiu {
   width: 200px;
 }
 
@@ -601,7 +608,7 @@
   width: 38px;
   height: 38px;
   background-color: #8664c2;
-  background-image: url('../images/telegram.svg');
+  background-image: url("../images/telegram.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -619,7 +626,7 @@
   width: 38px;
   height: 38px;
   background-color: #8664c2;
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -634,7 +641,7 @@
 }
 
 .section_disclaimer {
-  background-color: #2c1832;
+  background-color: #364bc2;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -729,8 +736,8 @@
 .continue {
   width: 100%;
   height: 45px;
-  background-color: #8664c2;
-  border-bottom: 4px solid #472e73;
+  background-color: #364bc2;
+  border-bottom: 4px solid #364bc2;
   border-radius: 6px;
   justify-content: center;
   align-items: center;
@@ -749,11 +756,13 @@
 }
 
 @media screen and (max-width: 991px) {
-  .skull_left, .skull_right {
+  .skull_left,
+  .skull_right {
     height: 30%;
   }
 
-  .dino_king, .block_para {
+  .dino_king,
+  .block_para {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -796,7 +805,11 @@
     padding-left: 7px;
   }
 
-  .gotbit, .bitmart, .raydiu, .dex, .dextools {
+  .gotbit,
+  .bitmart,
+  .raydiu,
+  .dex,
+  .dextools {
     width: 125px;
   }
 
@@ -948,7 +961,8 @@
     width: 80%;
   }
 
-  ._2, ._3 {
+  ._2,
+  ._3 {
     width: 80%;
     margin-top: 10px;
   }
@@ -1058,11 +1072,15 @@
     height: auto;
   }
 
-  .dinotax, .dinorevoke, .dino_burn, .dinow {
+  .dinotax,
+  .dinorevoke,
+  .dino_burn,
+  .dinow {
     height: 200px;
   }
 
-  .screen, .block_faq {
+  .screen,
+  .block_faq {
     width: 90%;
   }
 
@@ -1089,10 +1107,9 @@
   }
 }
 
-
 @font-face {
-  font-family: 'Candy Beans';
-  src: url('../fonts/Candy-Beans.otf') format('opentype');
+  font-family: "Candy Beans";
+  src: url("../fonts/Candy-Beans.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
