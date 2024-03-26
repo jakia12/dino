@@ -225,8 +225,8 @@
 .copyca {
   height: 100%;
   color: #fff;
-  background-color: #733b58;
-  border-bottom: 5px solid #472639;
+  background-color: #364bc2;
+  border-bottom: 5px solid #364bc2;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -240,7 +240,7 @@
 }
 
 .copyca:hover {
-  border-top: 5px solid #472639;
+  border-top: 5px solid #364bc2;
   border-bottom-style: none;
   padding-top: 5px;
   padding-bottom: 9px;
@@ -607,7 +607,7 @@
 .tg {
   width: 38px;
   height: 38px;
-  background-color: #8664c2;
+  background-color: #364bc2;
   background-image: url("../images/telegram.svg");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -618,14 +618,14 @@
 }
 
 .tg:hover {
-  border-top: 4px solid #472e73;
+  border-top: 4px solid #364bc2;
   border-bottom-style: none;
 }
 
 .twitter {
   width: 38px;
   height: 38px;
-  background-color: #8664c2;
+  background-color: #364bc2;
   background-image: url("../images/twitter.svg");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -636,7 +636,7 @@
 }
 
 .twitter:hover {
-  border-top: 4px solid #472e73;
+  border-top: 4px solid #364bc2;
   border-bottom-style: none;
 }
 
